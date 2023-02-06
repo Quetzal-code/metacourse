@@ -1,0 +1,76 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+.container
+{
+display: inline-flex;
+overflow: hidden;
+flex: 1 1 300px;
+border: 1px solid #9ca2a7;
+border-radius: 5px;
+}
+
+.Searchbox {
+    border: 0;
+    padding: 10px;
+    margin-left: -5px;
+}
+ 
+.Submitbox {
+ font-weight: 700;
+ border: 0;
+ color: #ffffff;
+ background-color: #1c3546;
+ padding: 2ex;
+ cursor: pointer;
+ transition: all 0.3s;
+}
+
+.Submitbox:hover{
+    background-color: #355266;
+    transform: scale(1.1);
+}
+
+.icon {
+    padding-left: 0.9em;
+}
+/*
+
+*/
+
+* {
+    margin: 0;
+}
+.box{
+    background-color: rgb(16, 94, 104);
+    color: white;
+    padding: 12px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: solid 1px black;
+    flex: 1 1 auto;
+}
+
+.box:hover {
+    background-color: rgb(25, 44, 43);
+    cursor: pointer;
+}
+
+.box:active {
+    background-color: rgb(63, 109, 107);
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center
+}
+
+.box3{
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+}
